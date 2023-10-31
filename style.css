@@ -9,6 +9,8 @@
     --gray-800: #1e293B;
     --gray-600: #475569;
     --purple: #7c3aed;
+    --gray400: #94a3b8;
+    --gray-200: #e2e8f0
 }
 header {
     background-image: url(./img/bg-mobile.png);
@@ -39,6 +41,8 @@ main{
 .input-box {
     display: flex;
     flex-direction: column;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
 }
 
 .input-box div{
@@ -47,6 +51,21 @@ main{
     align-items: center;
 }
 
+.input-box input{
+    padding: 1rem 0.75rem;
+    border: 1px solid var(--gray-200);
+    border-radius: 0.25rem;
+    color: var(--gray-800);
+}
+
+.input-box input::placeholder{
+    color: var(--gray400);
+}
+
+.input-box input:hover,
+.input-box input:focus{
+    outline: 1px solid var(--purple);
+}
 
 .login label {
     font-size: 0.875rem;
@@ -62,6 +81,10 @@ a{
 a:hover{
     text-decoration: underline;
 }
-/* comentario sim */
+a{
+    color: var(--purple);
+    text-decoration: none;
+}
+
 
 
