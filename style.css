@@ -30,9 +30,10 @@ main {
     padding-inline: 1.5rem;
 
 }
- .descricao {
+
+.descricao {
     margin-bottom: 2.5rem;
- }
+}
 
 .descricao h1 {
     color: var(--gray--800);
@@ -95,7 +96,7 @@ a {
     font-weight: 600;
 }
 
-.login a:hover{
+.login a:hover {
     text-decoration: underline;
 }
 
@@ -105,7 +106,8 @@ a {
     font-size: 0.875rem;
     font-weight: 600;
 }
-.login button{
+
+.login button {
     margin-top: 1rem;
     padding-block: 1rem;
     width: 100%;
@@ -117,4 +119,26 @@ a {
     color: var(--white);
 
 }
-/* sim */
+
+.login>p {
+    color: var(--gray-600);
+}
+
+.login>p a {
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+@media(min-width: 1000px){
+    header{
+        background: none;
+        justify-content: flex-start;
+        padding-inline: 7rem;
+    }
+    header img{
+        width:10rem;
+    }
+    main{
+        padding-inline: 7rem;
+    }
+}
