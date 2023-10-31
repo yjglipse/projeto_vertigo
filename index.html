@@ -3,6 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -12,40 +13,37 @@
 </head>
 
 <body>
-    <div class="conteudo">
     <header>
         <img src="./img/logo.svg" alt="logo">
     </header>
-    <main>
-        <section class="descricao">
+    <div class="conteudo">
+        <main>
+            <section class="descricao"></section>
             <h1>Acesse a plataforma</h1>
             <p>Faça login ou registre-se para começar a construir seus projetos ainda hoje.</p>
-        </section>
-        <section class="login ">
-            <form action="">
-                <div class="input-box">
-                    <label for="email">E-mail</label>
-                    <input type="email" placeholder="Digite seu e-mail" id="email">
-                </div>
-                <div class="input-box">
-                   <div>
-                    <label for="senha">Senha</label>
-                    <a href="">Esqueceu a senha?</a>
-                   </div>
-                    <input type="password" placeholder="Digite sua senha" id="senha">
-                </div>
-                <button>Entrar</button>
-            </form>
-            <p>
-                Ainda não tem uma conta? <a href="">Inscreva-se</a>
-            </p>
-        </section>
-    </main>
+
+            <section class="login">
+                <form action="">
+                    <div class="input-box">
+                        <label for="email">E-Mail</label>
+                        <input type="email" placeholder="Digite seu e-mail" id="email">
+                    </div>
+                    <div class="input-box">
+                        <label for="senha">Senha</label>
+                        <a href="">Esqueceu a senha?</a>
+                        <input type="password" placeholder="Digite sua senha" id="senha">
+                    </div>
+                    <button>Entrar</button>
+                </form>
+                <p>Ainda não tem uma conta?</p>
+                <a href="">Inscreva-se</a>
+
+            </section>
+        </main>
     </div>
-    <div class="bg-desktop">
-        <img src="./img/img.png" alt="background desktop">
+    <div class="bgdesktop">
+        <img src="./img/img.png" alt="background">
     </div>
 </body>
 
 </html>
-<!-- Mobile first: Conceito da responsividade: iniciar pela página do tamanho do celular -->
